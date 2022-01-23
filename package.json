@@ -22,7 +22,8 @@
     "test": "SKIP_PREFLIGHT_CHECK=true react-scripts test",
     "eject": "react-scripts eject",
     "storybook": "start-storybook -p 6006 -s public",
-    "build-storybook": "build-storybook -s public"
+    "build-storybook": "build-storybook -s public",
+    "cypress": "cypress open"
   },
   "eslintConfig": {
     "extends": [
@@ -61,6 +62,7 @@
     "@storybook/preset-create-react-app": "^3.1.7",
     "@storybook/react": "^6.4.9",
     "@storybook/testing-react": "^1.2.3",
+    "cypress": "^9.3.1",
     "jest-axe": "^5.0.1",
     "msw": "^0.36.5",
     "msw-storybook-addon": "^1.6.0"
